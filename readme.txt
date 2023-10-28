@@ -21,7 +21,10 @@
 4.分支命令
    git branch                   (check branch)
    git branch dev01             (create branch)
+   
 
+00.Git忽略文件管理
+   .gitignore                   (把不用Git管理的文件写到这个文件中) 
 
 
 
