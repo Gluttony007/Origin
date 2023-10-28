@@ -21,6 +21,12 @@
 4.分支命令
    git branch                   (check branch)
    git branch dev01             (create branch)
+   git checkout dev01           (Switch branch)
+   git branch -b dev02          (create and switch branch)
+
+   git merge dev01              (merge branch)
+   git checkout -d dev02        (delete branch)
+   git checkout -D dev02        (force delete branch)
    
 
 00.Git忽略文件管理
