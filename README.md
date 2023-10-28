@@ -28,8 +28,25 @@
    git checkout -d dev02        (delete branch)
    git checkout -D dev02        (force delete branch)
    
+5.remote命令
+   git remote add origin https://github.com/${user_name}/Origin.git (get remote repository service URL )
+   git remote                   (check remote repository)
+   git push -u origin master    (GitHub:push branch master to the remote repository) 
+   git push origin master       (push branch master to the remote repository) 
+   git push --set-upstream origin master:master   (Buil local repo and remote repo relationship) 
+   git remote -vv               (check remote repo relationship) 
+   git branch -vv               (check local repo and remote repo relationship) 
+
+6.clone命令
+   git clone https://github.com/Gluttony007/Origin.git (clone remote repo to local repo)
+  
+7.拉取和抓取命令
+   git fetch                    (fetch remote repo data to local, but not merge) 
+   git merge                    (merge fetch remote repo data to local)
+   git pull                     (fetch + merge)  
+
 00.删除文件
-   git rm --cached file.txt     (base repository to delete)
+   git rm --cached file.txt     (local repository to delete)
    git rm -r  在删除文件夹的时候，使用参数 -r 表示循环删除文件夹中的内容（不做详细介绍）
 
 00.查看用户信息
